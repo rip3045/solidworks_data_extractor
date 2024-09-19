@@ -27,6 +27,7 @@ solidworks-metadata-extractor/
 ├── README.md  # Project documentation
 ├── .gitignore  # Files to ignore in the repository
 └── requirements.txt  # Dependencies
+```
 
 ## Dependencies
 pywin32 - For COM automation to interface with SolidWorks.
