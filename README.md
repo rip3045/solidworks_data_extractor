@@ -29,10 +29,10 @@ solidworks-metadata-extractor/
 └── requirements.txt  # Dependencies
 ```
 
-## Dependencies
-pywin32 - For COM automation to interface with SolidWorks.\n
-pandas - For data handling and saving the metadata to CSV.\n
-tkinter - For GUI file dialog (if needed).\n
+Dependencies
+*pywin32 - For COM automation to interface with SolidWorks.
+*pandas - For data handling and saving the metadata to CSV.
+*tkinter - For GUI file dialog (if needed).
 These dependencies are listed in the requirements.txt.
 
 ## Usage
