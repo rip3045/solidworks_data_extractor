@@ -34,38 +34,12 @@ pandas - For data handling and saving the metadata to CSV.
 tkinter - For GUI file dialog (if needed).
 These dependencies are listed in the requirements.txt.
 
-##Usage
+## Usage
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/your-username/solidworks-metadata-extractor.git
 cd solidworks-metadata-extractor
 Run the script:
-bash
-Copy code
 python src/extract_metadata_python.py
 File Browsing Option
 You can select a SolidWorks part file using a file browser. Uncomment the following line in the main() function of the script:
 
-python
-Copy code
-file_path = browse_file()
-By default, the script uses a hardcoded file path for testing. Replace it with your file or use the file dialog.
-
-Output
-After running the script, the metadata will be saved as metadata_output.csv in the data directory.
-Troubleshooting
-Ensure that SolidWorks is installed and accessible via the COM interface.
-The script runs SolidWorks in the background. Ensure there are no other instances interfering with the process.
-bash
-Copy code
-
-### 3. **.gitignore**
-
-```plaintext
-# Ignore Python bytecode
-__pycache__/
-*.pyc
-
-# Ignore metadata outputs
-data/metadata_output.csv
