@@ -26,7 +26,7 @@ solidworks-metadata-extractor/
 │
 ├── README.md  # Project documentation
 ├── .gitignore  # Files to ignore in the repository
-└── requirements.txt  # Dependencies```
+└── requirements.txt  # Dependencies
 
 ## Dependencies
 pywin32 - For COM automation to interface with SolidWorks.
@@ -36,12 +36,10 @@ These dependencies are listed in the requirements.txt.
 
 ## Usage
 Clone the repository:
-```bash
 git clone https://github.com/your-username/solidworks-metadata-extractor.git
 cd solidworks-metadata-extractor
 
 Run the script:
-```bash
 python src/extract_metadata_python.py
 
 ## File Browsing Option
