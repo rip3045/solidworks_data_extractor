@@ -1,0 +1,1 @@
+# solidworks_data_extractor
