@@ -30,18 +30,22 @@ solidworks-metadata-extractor/
 ```
 
 ## Dependencies
-pywin32 - For COM automation to interface with SolidWorks.
-pandas - For data handling and saving the metadata to CSV.
-tkinter - For GUI file dialog (if needed).
+pywin32 - For COM automation to interface with SolidWorks.\n
+pandas - For data handling and saving the metadata to CSV.\n
+tkinter - For GUI file dialog (if needed).\n
 These dependencies are listed in the requirements.txt.
 
 ## Usage
 Clone the repository:
+```bash
 git clone https://github.com/your-username/solidworks-metadata-extractor.git
 cd solidworks-metadata-extractor
+```
 
 Run the script:
+```bash
 python src/extract_metadata_python.py
+```
 
 ## File Browsing Option
 You can select a SolidWorks part file using a file browser. Uncomment the following line in the main() function of the script:
